@@ -1,0 +1,24 @@
+#currentTemp, #currentTemp ~ .tempVal,
+#currentTemp ~ sup{
+    font-size: 50px;
+}
+#currentTemp ~ sup{
+    font-size: 35px;
+}
+table thead tr {
+    vertical-align: bottom;
+}
+table tr th a{
+    cursor: pointer;
+}
+table{
+    display: none;
+}
+thead{
+    border-bottom: 2px solid lightgray;
+}
+tr th,tr td{
+    width: 250px;
+    text-align: center;
+    padding: 15px 10px;
+}
